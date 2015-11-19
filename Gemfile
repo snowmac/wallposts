@@ -26,9 +26,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'pry'
   gem 'faker'
-end
-
-group :test do 
   gem 'rspec'
   gem 'rspec-rails'
 end
