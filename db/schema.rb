@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20151119234113) do
   create_table "users", force: :cascade do |t|
     t.string   "email"
     t.string   "name",       null: false
-    t.string   "gravtar"
+    t.string   "gravatar"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

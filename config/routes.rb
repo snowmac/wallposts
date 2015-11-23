@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root 'wall#index'
 
   namespace :api do
-    resources :posts
+    resources :posts, only: [:create, :index]
   end
 
 end
